@@ -1,0 +1,73 @@
+/* Base
+************************************************************************/
+
+/* Body */
+body {
+  font-size: 18px;
+  font-family: Arial;
+  color: #fff;
+}
+
+/* Links */
+a:link    { color: yellow; text-decoration: none; }
+a:visited { color: yellow; text-decoration: none; }
+a:hover   { color: yellow; text-decoration: none; }
+a:active  { color: yellow; text-decoration: none; }
+
+
+/* index.html
+************************************************************************/
+
+/* Game Table */
+.game-table {
+  width: 720px;
+  margin: 60px auto;
+  background: #009;
+  border-spacing: 5px;
+  border-collapse: separate;
+}
+
+/* Game Table: Table Heading */
+.game-table th {
+  padding: 20px 0;
+  text-align: center;
+  background: #00d;
+}
+
+/* Game Table: Table Cell: Anchor Tag */
+.game-table .table-cell a {
+  display: block;
+  padding: 20px 0;
+  text-align: center;
+  background: #00d;
+}
+
+/* Game Table: Table Cell: Hover Anchor Tag */
+.game-table .table-cell a:hover {
+  background: #009;
+}
+
+/* Game Table: Table Cell: Visited Anchor Tag */
+.game-table .table-cell a:visited {
+  color: #00d;
+  background: #00d;
+}
+
+
+/* question-x-x00.html
+************************************************************************/
+
+/* Question Template */
+.question-template {
+  background: #009;
+  text-align: center;
+}
+
+/* Question Template: Question */
+.question-template .question {
+  width: 720px;
+  display: block;
+  margin: 200px auto;
+  font-size: 50px;
+  text-shadow: 0px 0px 10px black;
+}
