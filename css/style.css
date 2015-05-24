@@ -5,7 +5,7 @@
 body {
   font-size: 18px;
   font-family: Arial;
-  color: #fff;
+  color: #000;
 }
 
 /* Links */
@@ -23,12 +23,14 @@ a:active  { color: yellow; text-decoration: none; }
   width: 720px;
   margin: 60px auto;
   background: #009;
+  color: #fff;
   border-spacing: 5px;
   border-collapse: separate;
 }
 
 /* Game Table: Table Heading */
-.game-table th {
+.game-table th,
+.game-table .table-cell a {
   padding: 20px 0;
   text-align: center;
   background: #00d;
@@ -37,9 +39,6 @@ a:active  { color: yellow; text-decoration: none; }
 /* Game Table: Table Cell: Anchor Tag */
 .game-table .table-cell a {
   display: block;
-  padding: 20px 0;
-  text-align: center;
-  background: #00d;
 }
 
 /* Game Table: Table Cell: Hover Anchor Tag */
@@ -59,6 +58,7 @@ a:active  { color: yellow; text-decoration: none; }
 
 /* Question Template */
 .question-template {
+  color: #fff;
   background: #009;
   text-align: center;
 }
